@@ -4,7 +4,14 @@
 }
 
 body {
-  background-color: #040503;
+  background-color: #040503 !important;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
 }
 
 * {
@@ -374,3 +381,215 @@ section {
   font-weight: 700;
   cursor: pointer;
 }
+
+/* welcome product */
+.welcomeProduct {
+  background-image: url(../assets/back01.png);
+  color: white;
+  /* background-color: black; */
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.welcomeProduct img {
+  height: 40vw;
+  position: relative;
+  bottom: 50px;
+  margin-left: -11vw;
+}
+
+.welcomeProduct .welcomeText {
+  margin-left: 100px;
+  display: flex;
+  margin-top: -60px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeProduct .welcomeText .welcomeH1 {
+  letter-spacing: 0.2ch;
+  font-family: myFirstFont;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.welcomeProduct .welcomeText .welcomeH1 .LowKey {
+  font-size: 106px;
+  position: relative;
+  top: 35px;
+  z-index: 1;
+  margin-left: 20px;
+  text-shadow: 0px 29px 20px #0000006e;
+}
+
+.welcomeProduct .welcomeText .Dispensary {
+  font-size: 120px;
+  color: #FCD300;
+  position: relative;
+  bottom: 30px;
+}
+
+.welcomeProduct .welcomeText p {
+  text-align: center;
+  width: 500px;
+  margin-top: -35px;
+}
+
+.welcomeProduct .welcomeText .btnForWelcome {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.yellowBtn {
+  font-size: 20px;
+  font-family: myFirstFont;
+  background-image: url(../assets/yelowBtn.png);
+
+}
+
+.welcomeProduct .welcomeText .btnForWelcome .btn2 {
+  background-color: transparent;
+  border: none;
+  background-image: url(../assets/btnwhiteOrder.png);
+  background-size: cover;
+  width: 180px;
+  height: 63px;
+  font-weight: 900;
+  font-size: 20px;
+  font-family: myFirstFont;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* slider class */
+.sliderClass {
+  background-color: white;
+  height: 141vh;
+  width: 100%;
+}
+
+.sliderClass img {
+  position: absolute;
+  height: 141vh;
+  width: 100%;
+  object-fit: cover;
+  filter: opacity(30%);
+
+}
+
+.sliderClass .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 70px;
+  text-transform: uppercase;
+  z-index: 100;
+}
+
+.slider-card .mainBack .product10 {
+  z-index: 100;
+}
+
+.sliderClass .content p {
+  font-size: 16px;
+  font-weight: 400;
+  z-index: 1;
+}
+
+.sliderClass .content h2 {
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  z-index: 1;
+}
+
+.sliderClass .content h1 {
+  font-size: 40px;
+  font-family: myFirstFont;
+  font-weight: 900;
+  letter-spacing: .2ch;
+  color: #F15F22;
+  z-index: 1;
+}
+
+/* slider main */
+.slider {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1.25);
+  opacity: 1;
+  /* background: white; */
+  color: black;
+  z-index: 10;
+  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+}
+
+.slider-card {
+  /* background: #F15F22;  */
+  padding: 0px 0px;
+  margin: 50px 15px 90px 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+  align-items: center;
+  line-height: 1.7ch;
+  transform:
+    rotate3d(.1, -.866, 0, 35deg) rotate(10deg);
+  height: 70vh;
+  width: 25vw;
+  transition:
+    transform .4s ease,
+    box-shadow .4s ease;
+  border-radius: .5em;
+  opacity: 0.5;
+
+}
+
+
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+
+.owl-dots {
+  text-align: center;
+}
+
+.owl-dots .owl-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: #ccc !important;
+  margin-left: 3px;
+  margin-right: 3px;
+  outline: none;
+}
+
+.owl-dots .owl-dot.active {
+  background: #f44336 !important;
+}
+
+/* end */
