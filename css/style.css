@@ -11,7 +11,6 @@ html,
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
-
 }
 
 * {
@@ -19,6 +18,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 /* social icons */
@@ -469,13 +469,13 @@ section {
 /* slider class */
 .sliderClass {
   background-color: white;
-  height: 141vh;
+  height: 153vh;
   width: 100%;
 }
 
 .sliderClass img {
   position: absolute;
-  height: 141vh;
+  height: 153vh;
   width: 100%;
   object-fit: cover;
   filter: opacity(30%);
@@ -530,7 +530,7 @@ section {
   /* background: white; */
   color: black;
   z-index: 10;
-  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+  box-shadow: 0 15px 45px -20px rgba(0, 0, 0, 0.188);
 }
 
 .slider-card {
@@ -594,3 +594,471 @@ section {
 }
 
 /* end */
+
+/* vip  */
+.VIPContents {
+  background-image: url(../assets/VIPback.png);
+  height: 90vh;
+}
+
+.VIPContents .textBig {
+  font-size: 8em;
+  overflow: hidden;
+  position: absolute;
+  color: #FCD300;
+  font-family: myFirstFont;
+  margin-top: -100px;
+}
+
+.VIPContents .vipCont {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  position: absolute;
+  right: 100px;
+  margin-top: 130px;
+}
+
+.vipCont .insideVIP {
+  display: flex;
+  gap: 30px;
+}
+
+.vipCont .h1 {
+  font-size: 6em;
+  color: white;
+  font-family: myFirstFont;
+  z-index: 10;
+  text-shadow: 0px 29px 20px #0000006f;
+
+}
+
+.vipCont .insideVIP .vipH1andP .strains {
+  font-size: 5em;
+  color: white;
+  font-family: myFirstFont;
+  margin-top: -40px;
+  z-index: -1;
+  color: #F15F22
+}
+
+.vipCont .insideVIP .vipH1andP p {
+  width: 580px;
+  color: white
+}
+
+.vipCont .insideVIP img {
+  height: 300px;
+  width: 300px;
+}
+
+/* end */
+/* for slider 2 */
+
+.mainSwiperAndLatest {
+  background-color: white;
+
+  height: 120vh;
+}
+
+.mainSwiperAndLatest .imgBack {
+  position: absolute;
+  height: 120vh;
+  object-fit: cover;
+  width: 100%;
+
+  filter: opacity(40%);
+}
+
+.mainSwiperAndLatest .latestH1andP {
+  padding-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 22;
+
+}
+
+.mainSwiperAndLatest .latestH1andP h1 {
+  font-weight: 600;
+
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-wrapper {
+  width: 100%;
+  height: 35em;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  width: 20em;
+  height: 90%;
+  background-color: white;
+  border-radius: 13px !important;
+  box-shadow: 0 0 2em rgba(0, 0, 0, .2);
+  padding: 2em 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 2em;
+}
+
+.btnCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  z-index: 20;
+  position: relative;
+}
+
+.card_image {
+  height: 100%;
+  width: 100%;
+}
+
+.card_image .tredingIMg img {
+  height: 30px;
+  width: 30px;
+  margin-top: 1px;
+}
+
+.card_image .tredingIMg {
+  position: absolute;
+  background-color: white;
+  top: 25px;
+  left: 25px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 10px;
+  z-index: 20;
+}
+
+.card_image .tredingIMg h1 {
+  font-size: 14px;
+
+  margin-top: 10px;
+}
+
+.card_image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  border-radius: 10px;
+  margin-top: -15px;
+}
+
+.card_content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card_title {
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: 21px;
+  margin-bottom: 20px;
+}
+
+.card_text {
+  width: 80%;
+  text-align: center;
+}
+
+.cardBtn {
+  text-transform: uppercase;
+  color: #FCD300;
+  font-weight: 800;
+  border: none;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+/* end */
+
+/* connect us */
+.connectUs {
+  background-image: url(../assets/connectBack.png);
+  background-repeat: no-repeat;
+  /* background-size:cover; */
+  background-position: 100% 100%;
+  background-color: white;
+  color: white;
+  height: 160vh;
+}
+
+.connectUs .flexClass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  flex-direction: column;
+}
+
+.lowkeydispensaryAndImg {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lowkeydispensaryAndImg h1 {
+  font-family: myFirstFont;
+  font-size: 30px;
+}
+
+.lowkeydispensaryAndImg .imgs {
+
+  display: flex;
+  align-items: center;
+  gap: 40px
+}
+
+.lowkeydispensaryAndImg .imgs img {
+  height: 250px;
+  box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.257);
+  width: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.connectCon1 {
+  margin-top: 100px;
+  z-index: 10;
+}
+
+.connectCon1 h1 {
+  font-size: 120px;
+  font-family: myFirstFont;
+  z-index: 100;
+  position: relative;
+  letter-spacing: .1ch;
+  text-shadow: 10px 29px 20px #000000e5;
+
+}
+
+.connectCon1 .defFromH1 {
+  color: #FCD300;
+
+  margin-top: -40px;
+
+}
+
+.connectCon1 h2 {
+  font-size: 27px;
+
+}
+
+.connectContent {
+  display: flex;
+  gap: 50px
+}
+
+.connectCon1 p {
+  width: 500px;
+  text-align: center;
+  color: grey;
+}
+
+
+.socialLinksConnection div p {
+  text-align: left;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+
+.socialLinksConnection div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+
+.connectCon2 {
+  background-color: #373737;
+  height: 500px;
+  width: 550px;
+  border-radius: 10px;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  padding: 40px 20px;
+  text-transform: capitalize;
+  align-items: center;
+  justify-content: center;
+}
+
+.connectCon2 div input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid grey;
+  color: white;
+  margin-top: -20px;
+  position: relative;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.connectCon2 input:focus {
+  outline: none;
+}
+
+.connectCon2 div p {
+  color: #A0A0A0;
+}
+
+.connectCon2 div textarea {
+  resize: none;
+  width: 100%;
+  color: white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.connectCon2 button {
+  margin-top: 40px;
+}
+
+.connectCon2 div textarea:focus {
+  outline: none;
+}
+
+.vipSIgnup {
+  background-color: white;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.vipSIgnup .LIVELOWKEY {
+  font-size: 120px;
+  margin-top: -100px;
+  text-align: center;
+  position: absolute;
+  color: #F15F22;
+  font-family: myFirstFont;
+}
+
+.vipSIgnup .insideVIP {
+  display: flex;
+  margin-top: -100px;
+  align-items: center;
+  justify-content: left;
+}
+
+.vipSIgnup .insideVIP h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.vipSIgnup .insideVIP h1 {
+  font-size: 80px;
+  font-family: myFirstFont;
+  color: #FCD300;
+}
+
+.vipSIgnup .insideVIP p {
+  width: 500px;
+}
+
+.vipSIgnup .insideVIP .loginPara {
+  margin-top: 20px;
+}
+
+.vipSIgnup .insideVIP .loginPara span {
+  color: #FCD300;
+}
+
+.vipSIgnup img {
+  width: 120vh;
+}
+
+/* footer */
+footer {
+  color: white;
+  display: flex;
+  gap: 50px;
+  padding: 20px 20px;
+  background-image: url(../assets/footerBack.png);
+  background-color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.52);
+  padding-top: 100px;
+}
+
+footer .logoAndPara img {
+  background-color: white;
+}
+
+footer .logoAndPara p {
+  width: 600px;
+  font-size: 14px;
+}
+
+footer h1 {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+ul {
+  list-style: none;
+}
+
+.Explore .Explore01 {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: -30px;
+}
+
+.Explore01 ul li {
+  font-size: 16px;
+}
+
+.GetInTouch {
+  font-size: 14px;
+}
+
+.logosSocial div {
+  display: flex;
+  align-items: center;
+}
+
+.logosSocial div img {
+  margin-top: -20px;
+  margin-left: -10px;
+}
+
+.logosSocial div p {
+  margin-left: 10px;
+}
+
+.followLinks div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.lastFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 20px;
+  color: white;
+}
