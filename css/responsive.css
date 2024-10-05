@@ -255,6 +255,12 @@ body {
 }
 
 @media (max-width:970px) {
+  nav {
+    background-color: white;
+    margin-bottom: 23px;
+
+  }
+
   nav .links {
     display: none;
   }
