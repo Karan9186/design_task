@@ -1,0 +1,518 @@
+.menuBtn {
+  display: none;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100% !important;
+}
+
+@media (max-width:1000px) {
+  .product01 {
+    width: 90vw;
+  }
+
+  .product02 {
+    width: 90vw;
+  }
+}
+
+@media (max-width:923px) {
+  .welcomeProduct .welcomeText .welcomeH1 .LowKey {
+    font-size: 5rem;
+  }
+
+  .welcomeProduct .welcomeText .Dispensary {
+    font-size: 6rem;
+  }
+
+  .welcomeProduct .welcomeText {
+    margin-left: 1vw;
+  }
+
+  .welcomeProduct img {
+    /* margin-left: -24vw; */
+    height: 100vw;
+    max-height: 60vw;
+    margin-top: 200px;
+    margin-left: -35vw;
+  }
+}
+
+@media (max-width:594px) {
+  .sliderClass .content h2 {
+    font-size: 18px !important;
+  }
+
+  .sliderClass .content h1 {
+    font-size: 27px !important;
+  }
+
+  .connectCon1 h1 {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width:735px) {
+  .welcomeProduct {
+    padding-top: 40px;
+    flex-direction: column;
+    height: 120vh;
+  }
+
+  .sliderClass .content h2 {
+    /* font-size: 30px !important; */
+  }
+
+  .sliderClass .content h1 {
+    /* font-size: 30px !important */
+  }
+
+  .welcomeProduct img {
+    margin-top: 0px;
+  }
+
+  .connectContent {
+    flex-direction: column;
+  }
+
+  .connectUs {
+    height: auto;
+    padding-bottom: 90px;
+  }
+
+  .socialLinksConnection {
+    display: flex;
+    gap: 20px
+  }
+
+  .connectCon1 h1 {
+    font-size: 80px !important;
+  }
+
+  .connectCon2 {
+    margin-top: 10px;
+  }
+
+  .secondProduct button {
+    width: 16vw;
+    height: 5vw;
+  }
+
+  .mainProduct button {
+    width: 16vw;
+    height: 5vw;
+  }
+
+  .mainProduct1 button {
+    width: 16vw;
+    height: 5vw;
+  }
+
+  .secondProduct1 button {
+    width: 16vw;
+    height: 5vw;
+  }
+
+  .product01 h1 {
+    font-size: 17px !important;
+  }
+
+  .product02 h1 {
+    font-size: 17px !important;
+  }
+}
+
+@media (max-width:845px) {
+  .owl-carousel .owl-stage-outer {
+    overflow: visible !important;
+  }
+
+  .VIPContents .textBig {
+    font-size: 6em;
+    margin-top: -70px;
+  }
+
+  .VIPContents .vipCont {
+    right: 5px;
+    width: 100%;
+  }
+
+  .vipCont .insideVIP {
+    width: 100%;
+  }
+
+  .vipCont .insideVIP .vipH1andP p {
+    width: 86%;
+  }
+}
+
+@media (max-width:850px) {
+  .product01 {
+    font-size: 12px;
+  }
+
+  .product01 h1 {
+    font-size: 23px;
+  }
+
+  .product02 h1 {
+    font-size: 23px;
+  }
+
+  .secondProduct .secondInsideSecond .sec01 div h1 {
+    font-size: 23px;
+  }
+
+  .secondProduct .secondInsideSecond .sec02 div h1 {
+    font-size: 23px;
+  }
+
+  .product02 {
+    font-size: 12px;
+  }
+
+  .whiteOrderBtn {
+    width: 15vw;
+    height: 5vw;
+  }
+
+
+}
+
+@media (max-width:700px) {
+  .vipCont .insideVIP {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vipCont .h1 {
+
+    font-size: 4rem;
+  }
+
+  .vipCont .insideVIP .vipH1andP .strains {
+    font-size: 4rem;
+  }
+
+  .VIPContents .textBig {
+    font-size: 5rem;
+    margin-top: -50px;
+  }
+
+  .vipCont .insideVIP .vipH1andP {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+  }
+
+  .vipCont .insideVIP .vipH1andP .strains {
+    z-index: 0;
+  }
+
+  .VIPContents .vipCont {
+    margin-top: 60px;
+  }
+
+  .VIPContents {
+    height: 110vh;
+  }
+
+  .vipCont .insideVIP img {
+    height: 30vw;
+    width: 30vw;
+  }
+
+  .product01 {
+    font-size: 10px;
+  }
+
+  .product01 h1 {
+    font-size: 16px;
+  }
+
+  .product02 h1 {
+    font-size: 16px;
+  }
+
+  .secondProduct .secondInsideSecond .sec01 div h1 {
+    font-size: 16px;
+  }
+
+  .secondProduct .secondInsideSecond .sec02 div h1 {
+    font-size: 16px;
+  }
+
+  .product02 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width:970px) {
+  nav .links {
+    display: none;
+  }
+
+  .menuBtn {
+    display: block !important;
+  }
+
+  nav {
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  .heroSection .heroContant .welcome {
+    font-size: 1rem;
+  }
+
+  .heroSection .heroContant .textContant {
+    font-size: 4rem;
+  }
+
+  .heroSection .heroContant p {
+    font-size: .7rem;
+  }
+
+  .heroSection .heroImg img {
+    height: 100vw;
+    margin-left: -100px;
+  }
+
+  .heroSection {
+    justify-content: space-between;
+    margin-left: 0px;
+  }
+
+  .heroSection .heroContant {
+    margin-left: 0px;
+    padding: 0px 20px;
+  }
+
+  .slider-card {
+    width: 400px !important;
+    margin-left: 60px;
+  }
+}
+
+@media (max-width:564px) {
+  .sliderClass .content h1 {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width:534px) {
+  .slider-card {
+    width: 360px !important;
+    margin-left: 12vw;
+  }
+}
+
+@media (max-width:478px) {
+  .slider-card {
+    width: 330px !important;
+    margin-left: 13vw;
+  }
+
+  .socialLinksConnection {
+    flex-direction: column;
+  }
+
+  .VIPContents .textBig {
+    font-size: 50px;
+    margin-top: -35px;
+  }
+
+  .vipCont .h1 {
+    font-size: 40px;
+  }
+
+  .vipCont .insideVIP .vipH1andP .strains {
+    font-size: 40px;
+    margin-top: -20px;
+  }
+}
+
+@media (max-width:429px) {
+  .slider-card {
+    width: 320px !important;
+    margin-left: 13vw;
+  }
+}
+
+@media (max-width:1157px) {
+  .connectCon1 h1 {
+    font-size: 100px;
+  }
+
+  .connectCon1 h2 {
+    font-size: 20px;
+  }
+
+  .connectCon1 p {
+    width: 35vw;
+  }
+}
+
+@media (max-width:974px) {
+  .connectCon1 h1 {
+    font-size: 90px;
+  }
+
+  .connectCon1 h2 {
+    font-size: 20px;
+  }
+
+  .connectCon1 p {
+    width: 31vw;
+  }
+}
+
+@media (max-width:816px) {
+  .connectCon1 h1 {
+    font-size: 80px;
+  }
+
+  .connectCon1 h2 {
+    font-size: 17px;
+  }
+
+  .connectCon1 p {
+    width: 28vw;
+  }
+}
+
+@media (max-width:899px) {
+  .vipSIgnup .LIVELOWKEY {
+    font-size: 100px;
+  }
+
+  .vipSIgnup .insideVIP {
+    margin-top: 50px;
+  }
+
+  .vipSIgnup .insideVIP h1 {
+    font-size: 55px;
+  }
+
+  .vipSIgnup .insideVIP p {
+    width: 36vw;
+  }
+}
+
+@media (max-width:788px) {
+  .vipSIgnup .LIVELOWKEY {
+    font-size: 80px;
+    margin-top: -70px;
+  }
+
+  .vipSIgnup .insideVIP {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width:665px) {
+  .vipSIgnup .LIVELOWKEY {
+    font-size: 57px;
+    margin-top: -50px;
+  }
+
+  .vipSIgnup .insideVIP {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width:730px) {
+  .vipSIgnup .insideVIP {
+    flex-direction: column;
+  }
+
+  .vipSIgnup {
+    height: auto;
+  }
+
+  .vipSIgnup img {
+    margin-top: -100px;
+  }
+
+  .whiteOrderBtn {
+    width: 27vw;
+    height: 7vw;
+  }
+}
+
+@media (max-width:1226px) {
+  .footer {
+    /* height: 200vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .footer .logoAndPara p {
+    width: 100%;
+  }
+}
+
+@media (max-width:525px) {
+  .welcomeProduct .welcomeText .welcomeH1 {
+    font-size: 25px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .welcomeProduct .welcomeText .welcomeH1 .LowKey {
+    position: unset;
+    font-size: 60px;
+    margin-top: -44px;
+    position: relative;
+    margin-left: -20px;
+  }
+
+  .welcomeProduct .welcomeText .Dispensary {
+    font-size: 60px;
+    margin-top: 25px;
+  }
+
+  .welcomeProduct .welcomeText p {
+    width: 90%;
+  }
+}
+
+@media (max-width:670px) {
+  .heroSection {
+    flex-direction: column;
+  }
+
+  .heroSection .heroImg img {
+    margin-left: 0px;
+    height: 60vh;
+  }
+}
+
+@media (max-width:555px) {
+  .addres_and_socialLinks {
+    flex-direction: column;
+  }
+
+  .addres_and_socialLinks .socialMediaIcons {
+    display: none;
+  }
+}
+
+@media (max-width:549px) {
+  .productCat .mainFLexClass {
+    display: none;
+  }
+
+  .productCat .mobileShow {
+    visibility: visible;
+    display: flex;
+  }
+}

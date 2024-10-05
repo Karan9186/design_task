@@ -51,6 +51,67 @@ body {
   font-size: 15px;
 }
 
+/* for mobile nav */
+.mobileNavView {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  height: 100vh;
+  width: 400px;
+  z-index: 1000;
+  margin-left: -150vw;
+  transition: 0.5s;
+}
+
+.mobileNavView .links {
+  display: flex;
+  padding: 20px 20px;
+  flex-direction: column;
+}
+
+.mobileNavView .links a {
+  text-decoration: none;
+  color: black;
+  margin-top: 6px;
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+  transition: .5s;
+
+}
+
+.mobileNavView .links a:hover {
+  background-color: #fcd2006d;
+  border-radius: 10px;
+
+}
+
+.showNav {
+
+  margin-left: 0vw !important;
+}
+
+.mobileNavView .corss {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  font-size: 35px;
+  background-color: transparent;
+}
+
+.mobileNavView .links button {
+  background-color: #FCD300;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* end */
 
 
 /* nav bar */
@@ -104,7 +165,7 @@ section {
 
 #back_section {
   position: absolute;
-  height: 100%;
+  height: 93%;
   object-fit: cover;
   width: 100%;
   z-index: -1;
@@ -194,28 +255,44 @@ section {
   display: flex;
   align-items: center;
   background-image: url(../assets/pr1back.png);
-  width: 650px;
-  height: 50%;
+  width: 50%;
+  height: 35vw;
   justify-content: space-around;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
-.mainProduct img {
-  height: 470px;
+.productCat .mainProduct img {
+  height: 27vw;
 }
+
+.mainFLexClass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.productCat .mobileShow {
+  display: none;
+  overflow-x: scroll;
+  gap: 20px;
+  padding: 20px;
+}
+
 
 /* for product line 1 */
 .product01 {
   display: flex;
   align-items: center;
   height: 100%;
-  gap: 10px
+  gap: 10px;
+  width: 95vw;
 }
 
 .secondProduct {
-  height: 67vh;
-  width: 630px;
+  height: 35vw;
+  width: 50%;
 }
 
 .secondProduct .secon02 {
@@ -243,7 +320,7 @@ section {
 
 .secondProduct .secondInsideSecond .sec01 {
   background-image: url(../assets/pr3back.png);
-  width: 100%;
+  width: 50%;
   background-size: 100% 100%;
   height: 100%;
   align-items: center;
@@ -262,7 +339,7 @@ section {
 
 .secondProduct .secondInsideSecond .sec02 {
   background-image: url(../assets/pr4back.png);
-  width: 100%;
+  width: 48%;
   background-size: 100% 100%;
   height: 100%;
   align-items: center;
@@ -286,27 +363,28 @@ section {
   display: flex;
   align-items: center;
   background-image: url(../assets/pr5back.png);
-  width: 650px;
-  height: 50%;
+  width: 50%;
+  height: 35vw;
   justify-content: space-around;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 .mainProduct1 img {
-  height: 470px;
+  height: 27vw
 }
 
 .product02 {
   display: flex;
   align-items: center;
   height: 100%;
-  gap: 10px
+  gap: 10px;
+  width: 95vw;
 }
 
 .secondProduct1 {
-  height: 67vh;
-  width: 630px;
+  height: 35vw;
+  width: 50%;
 }
 
 .secondProduct1 .secon02 {
@@ -334,7 +412,7 @@ section {
 
 .secondProduct1 .secondInsideSecond .sec01 {
   background-image: url(../assets/pr7back.png);
-  width: 100%;
+  width: 50%;
   background-size: 100% 100%;
   height: 100%;
   align-items: center;
@@ -342,7 +420,7 @@ section {
 }
 
 .secondProduct1 .secondInsideSecond .sec01 img {
-  height: 40%;
+  height: 24%;
 }
 
 .secondProduct1 .secondInsideSecond .sec01 div h1 {
@@ -353,7 +431,7 @@ section {
 
 .secondProduct1 .secondInsideSecond .sec02 {
   background-image: url(../assets/pr8.png);
-  width: 100%;
+  width: 48%;
   background-size: 100% 100%;
   height: 100%;
   align-items: center;
@@ -389,7 +467,9 @@ section {
   color: white;
   /* background-color: black; */
   margin-top: 100px;
+  width: 100%;
   display: flex;
+  height: 93vh;
   align-items: center;
   justify-content: space-around;
 }
@@ -398,6 +478,7 @@ section {
   height: 40vw;
   position: relative;
   bottom: 50px;
+  max-height: 40vw;
   margin-left: -11vw;
 }
 
@@ -405,6 +486,7 @@ section {
   margin-left: 100px;
   display: flex;
   margin-top: -60px;
+  /* width: 50%; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -418,7 +500,7 @@ section {
 }
 
 .welcomeProduct .welcomeText .welcomeH1 .LowKey {
-  font-size: 106px;
+  font-size: 6rem;
   position: relative;
   top: 35px;
   z-index: 1;
@@ -427,7 +509,7 @@ section {
 }
 
 .welcomeProduct .welcomeText .Dispensary {
-  font-size: 120px;
+  font-size: 7rem;
   color: #FCD300;
   position: relative;
   bottom: 30px;
@@ -616,7 +698,7 @@ section {
   justify-content: end;
   flex-direction: column;
   position: absolute;
-  right: 100px;
+  right: 12vw;
   margin-top: 130px;
 }
 
@@ -649,8 +731,8 @@ section {
 }
 
 .vipCont .insideVIP img {
-  height: 300px;
-  width: 300px;
+  height: 21vw;
+  width: 21vw;
 }
 
 /* end */
@@ -800,15 +882,17 @@ section {
 }
 
 .connectUs .flexClass {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 80px;
-  flex-direction: column;
+  flex-direction: column; */
+  /* padding-top: 80px; */
+  padding: 5vw 9vw;
 }
 
 .lowkeydispensaryAndImg {
   display: flex;
+  margin-top: 35px;
   /* align-items: center; */
   justify-content: center;
   flex-direction: column;
@@ -823,7 +907,12 @@ section {
 
   display: flex;
   align-items: center;
-  gap: 40px
+  gap: 40px;
+  overflow-x: scroll;
+}
+
+.lowkeydispensaryAndImg .imgs::-webkit-scrollbar {
+  display: none;
 }
 
 .lowkeydispensaryAndImg .imgs img {
@@ -889,7 +978,7 @@ section {
 .connectCon2 {
   background-color: #373737;
   height: 500px;
-  width: 550px;
+  width: 83vw;
   border-radius: 10px;
   margin-top: 100px;
   position: relative;
@@ -899,6 +988,7 @@ section {
   align-items: center;
   justify-content: center;
 }
+
 
 .connectCon2 div input {
   border: none;
@@ -956,7 +1046,7 @@ section {
 
 .vipSIgnup .insideVIP {
   display: flex;
-  margin-top: -100px;
+  /* margin-top: -100px; */
   align-items: center;
   justify-content: left;
 }
@@ -985,18 +1075,25 @@ section {
 }
 
 .vipSIgnup img {
-  width: 120vh;
+  width: 52vw;
 }
 
 /* footer */
+.footer {
+  background-image: url(../assets/footerBack.png);
+  background-color: white;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.52);
+  padding: 20px 20px;
+}
+
 footer {
   color: white;
   display: flex;
   gap: 50px;
-  padding: 20px 20px;
-  background-image: url(../assets/footerBack.png);
-  background-color: white;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.52);
+
+  flex-wrap: wrap;
+
   padding-top: 100px;
 }
 

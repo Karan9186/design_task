@@ -47,3 +47,15 @@ var swipper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
   },
 });
+
+// nav bar
+let nav = document.querySelector(".mobileNavView");
+let btnMenu = document.querySelector(".menuBtn");
+let btnCorss = document.querySelector(".corss");
+btnMenu.addEventListener("click", () => {
+  nav.classList.add("showNav");
+});
+
+btnCorss.addEventListener("click", () => {
+  nav.classList.remove("showNav");
+});
