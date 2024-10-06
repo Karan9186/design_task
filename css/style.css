@@ -741,12 +741,12 @@ section {
 .mainSwiperAndLatest {
   background-color: white;
 
-  height: 120vh;
+  height: auto;
 }
 
 .mainSwiperAndLatest .imgBack {
   position: absolute;
-  height: 120vh;
+  height: 100%;
   object-fit: cover;
   width: 100%;
 

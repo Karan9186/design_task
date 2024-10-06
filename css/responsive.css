@@ -61,7 +61,7 @@ body {
   .welcomeProduct {
     padding-top: 40px;
     flex-direction: column;
-    height: 120vh;
+    height: auto;
   }
 
   .sliderClass .content h2 {
@@ -221,7 +221,7 @@ body {
   }
 
   .VIPContents {
-    height: 110vh;
+    height: 81vh;
   }
 
   .vipCont .insideVIP img {
